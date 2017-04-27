@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" version="1">
+  <title/>
+  <creator/>
+  <trackList>
+    <track>
+      <location>http://radiofg.impek.com:80/fg</location>
+      <title>2016 -</title>
+      <annotation>Stream Title: FG DJ Radio
+
+Content Type:audio/mpeg
+Bitrate: 128
+Current Listeners: 1142
+Peak Listeners: 2113
+Stream Genre: Techno Dance</annotation>
+      <info>www.radiofg.com</info>
+    </track>
+  </trackList>
+</playlist>

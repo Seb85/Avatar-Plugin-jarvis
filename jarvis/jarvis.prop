@@ -1,0 +1,24 @@
+{
+	"modules" : { 
+		"jarvis"  : {
+			"description": "Lancer exe,bat,vbs..",
+			"version": "1.0",
+			"tts_action" : {
+				"radionrj" : "je mets la radio.",
+				"radiomfm" : "je mets la radio.",
+				"radiofun" : "je mets la radio.",
+				"radioalouette" : "je mets la radio.",
+				"radiofg" : "je mets la radio.",
+				"radiostop" : "j'arrete la radio."
+			},
+			"rules" : {
+				"radionrj" : ["radio nrj"],
+				"radiomfm" : ["radio mfm"],
+				"radiofun" : ["radio station fun radio"],
+				"radioalouette" : ["lark radio"],
+				"radiofg" : ["fg radio"],
+				"radiostop" : ["stop the radio"]
+			}
+		}
+	}
+}
