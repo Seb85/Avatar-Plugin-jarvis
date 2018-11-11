@@ -3,6 +3,7 @@
 		"jarvis"  : {
 			"description": "Lancer exe,bat,vbs..",
 			"version": "1.0",
+			"active" : true,
 			"tts_action" : {
 				"radionrj" : "je mets la radio.",
 				"radiomfm" : "je mets la radio.",
