@@ -20,25 +20,31 @@ exports.action = function(data, callback){
 }
 
 function  radionrj(client){
-		Avatar.runApp("C:\\VideoLAN\\VLC\\vlc", "C:\\Avatar\\Client\\app\\jarvis\\nrj.m3u", client);
+		Avatar.runApp("C:\\VideoLAN\\VLC\\vlc", "C:\\Avatar\\Client\\app\\jarvis\\nrj.m3u", client, function () {
+		});
 }
 
 function  radiomfm(client){
-		Avatar.runApp("C:\\VideoLAN\\VLC\\vlc", "C:\\Avatar\\Client\\app\\jarvis\\mfm.m3u", client);
+		Avatar.runApp("C:\\VideoLAN\\VLC\\vlc", "C:\\Avatar\\Client\\app\\jarvis\\mfm.m3u", client, function () {
+		});
 }
 
 function  radiofun(client){
-		Avatar.runApp("C:\\VideoLAN\\VLC\\vlc", "C:\\Avatar\\Client\\app\\jarvis\\fun.m3u", client);
+		Avatar.runApp("C:\\VideoLAN\\VLC\\vlc", "C:\\Avatar\\Client\\app\\jarvis\\fun.m3u", client, function () {
+		});
 }
 
 function  radioalouette(client){
-		Avatar.runApp("C:\\VideoLAN\\VLC\\vlc", "C:\\Avatar\\Client\\app\\jarvis\\alouette.m3u", client);
+		Avatar.runApp("C:\\VideoLAN\\VLC\\vlc", "C:\\Avatar\\Client\\app\\jarvis\\alouette.m3u", client, function () {
+		});
 }
 
 function  radiofg(client){
-		Avatar.runApp("C:\\VideoLAN\\VLC\\vlc", "C:\\Avatar\\Client\\app\\jarvis\\fg.xspf", client);
+		Avatar.runApp("C:\\VideoLAN\\VLC\\vlc", "C:\\Avatar\\Client\\app\\jarvis\\fg.xspf", client, function () {
+		});
 }
 
 function  radiostop(client){
-		Avatar.runApp("C:\\VideoLAN\\VLC\\vlc", "C:\\Avatar\\Client\\app\\jarvis\\radiostop.bat", client);
+		Avatar.runApp("C:\\VideoLAN\\VLC\\vlc", "C:\\Avatar\\Client\\app\\jarvis\\radiostop.bat", client, function () {
+		});
 }
